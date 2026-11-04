@@ -1,0 +1,27 @@
+{
+  "title": "Prediction and Explanation Sensitivity under Controlled Feature Shifts in Malware and Phishing Detection",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Bui, Phi-Hung",
+      "affiliation": "Posts and Telecommunications Institute of Technology, Ho Chi Minh City, Vietnam",
+      "orcid": "0009-0002-0292-1017"
+    },
+    {
+      "name": "Nguyen, Hoang-Thanh",
+      "affiliation": "Posts and Telecommunications Institute of Technology, Ho Chi Minh City, Vietnam",
+      "orcid": "0009-0005-2844-6113"
+    }
+  ],
+  "description": "Code, configuration and record-level outputs for the paper \"Prediction and Explanation Sensitivity under Controlled Feature Shifts in Malware and Phishing Detection\". The package implements a paired evaluation of feature-attribution stability with a ladder of matched controls (displacement-, probability-, operation- and MI-rank-matched), a capability-constrained Android permission shift, and a cross-source URL study (PhiUSIIL to PhishVN), over three datasets, three detector families and ten resplits. It regenerates every table and figure of the paper and includes the reporting checklist for explanation-stability claims (CHECKLIST.md).",
+  "keywords": [
+    "explainable AI",
+    "malware detection",
+    "phishing detection",
+    "attribution stability",
+    "dataset shift",
+    "matched controls",
+    "reproducibility"
+  ]
+}

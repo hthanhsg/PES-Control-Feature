@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Prediction and Explanation Sensitivity under Controlled Feature Shifts in Malware and Phishing Detection"
+message: "If you use this software, please cite it as below."
+version: "1.8.0"
+type: "software"
+license: "MIT"
+authors:
+  - family-names: "Bui"
+    given-names: "Phi-Hung"
+    affiliation: "Posts and Telecommunications Institute of Technology, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0009-0002-0292-1017"
+  - family-names: "Nguyen"
+    given-names: "Hoang-Thanh"
+    affiliation: "Posts and Telecommunications Institute of Technology, Ho Chi Minh City, Vietnam"
+    orcid: "https://orcid.org/0009-0005-2844-6113"
+abstract: >-
+  Malware and phishing detectors increasingly display feature attributions alongside their scores, yet a change in an attribution may reflect explainer noise, the size or direction of an input change, a shift in the predicted probability or ranking ties rather than a change in the evidence the model uses. We propose a paired evaluation that compares each transformed record with a ladder of matched controls (equal displacement, equal probability response, and the same operation applied to random or rank-adjacent features). On NATICUSdroid, UCI Phishing Websites and PhiUSIIL, with three detector families and ten resplits, the top-$k$ instability contrast of masking the most informative features ranges from $-0.285$ to $+0.507$ against the conventional displacement-matched control. An operation-matched control removes the negative contrast used in logistic regression, thereby making it a control artifact. For random forests and gradient boosting, the contrast shrinks under every control but remains positive ($+0.04$ to $+0.38$), and the probability response accounts for a substantial share of it; saturated PhiUSIIL models yield tie-dominated, uninformative attributions. Adding four benign-associated permissions evades 95--96\% of malware predictions. Lexical URL detectors trained on PhiUSIIL fail on 17{,}938 PhishVN URLs (balanced accuracy 0.53--0.57 versus 0.76--0.78 in-target) because benign PhiUSIIL URLs carry no path, and appending a URL fragment triggers about 1{,}000 false alarms among 2{,}000 edits without a single evasion.
